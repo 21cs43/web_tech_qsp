@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media print {
+            p{
+                color: red;
+                border: 2px solid black;
+                background-color: yellow;
+                font-size: 24px;
+                height: 300px;
+            }
+           
+                
+        }
+        /*@media screen and (width>1000px) and (width<1200px){
+             h1{
+                color: aqua;
+                background-color: red;
+            }
+            h1::before{
+                content: "desktop";
+            }
+
+            
+        }*/
+        /*@media screen and (min-width:500px) and (max-width:700px){
+             h1{
+                color: aqua;
+                background-color: red;
+            }
+            h1::before{
+                content: "desktop"; <! alternative contion <,>----->min,max!>
+            }
+        }*/
+        /*@media screen and (max-width:700px){
+             h1{
+                color: aqua;
+                background-color: red;
+            }
+            h1::before{
+                content: "desktop";
+            }
+        }*/
+        @media screen and (orientation: portrait) {
+            h1{
+                color: aqua;
+                background-color: red;
+            }
+            h1::before{
+                content: "mobile";
+            }
+            
+        }
+        @media screen and (orientation: landscape) {
+            h1{
+                color: rgb(25, 199, 37);
+                background-color: blueviolet;
+            }
+            h1::before{
+                content: "desktop";
+            }
+            
+        }
+        
+
+        @media all {
+            h2{
+                  color: green;
+                margin-top: 50px;
+            } 
+            }
+            
+        
+
+    </style>
+
+</head>
+<body>
+    <h1>Screen </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo saepe ipsa quo voluptatum, id culpa? Doloribus ipsam eaque quae iste facilis possimus tenetur? Ab perspiciatis ut, iste saepe perferendis nulla? Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci corrupti placeat possimus eligendi deleniti dolores? Iusto unde quos aspernatur esse iure, sed dolorem iste numquam adipisci, delectus fugiat commodi soluta?</p>
+    <h2>this is printing page</h2>
+</body>
+</html>

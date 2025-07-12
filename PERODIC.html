@@ -1,0 +1,62 @@
+Here’s a simple example of how to create a table in HTML:
+
+Copy the code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            height: 50%;
+            margin: 80px;
+        }
+        th, td {
+            border: 1pt solid coral ;
+            padding: 10px;
+            text-align:center;
+        }
+        #one{
+            background-color: red;
+            text-align:center
+            
+        }
+        .common{
+            
+        }
+    </style>
+</head>
+<body>
+    <table >
+             <tr id="one" >
+                <td>Serial No.</td>
+                <td class="common">Name</td>
+                <td>Age</td>
+                <td>City</td>
+             </tr>
+             <tr>
+                <td>1</td>
+                <td colspan="2">Arjun</td>
+                <td>25</td>
+                <td>Kolkata</td>
+             </tr>
+             <tr>
+                <td>2</td>
+                <td>Meera</td>
+                <td>30</td>
+                <td>Delhi</td>
+             </tr>
+             <tr>
+                <td>3</td>
+                <td>Ravi</td>
+                <td>28</td>
+                <td>Mumbai</td>
+            </tr>
+    </table>
+</body>
+</html>
+
+

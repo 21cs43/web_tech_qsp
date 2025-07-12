@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+        div{
+            height: 150px;
+            width: 150px;
+            border: solid;
+            transition: all 3s 1s linear;
+        }
+        div:hover{
+            /*transform: translate(20px,30px);change the postion of the element*/
+            /*transform:scaleX(2);  will be double of given user number*/
+            /*transform:scaleX(0.5);*/
+            /*transform:scaleY(0.25); shrink*/
+            /*transform: scale(3,2);*/
+            /*transform:skewX(45deg); sland the element in the x axis*/
+            /* transform: skew(45deg,60deg);*/
+            /*transform: rotate(360deg);*/
+            /*transform: rotateY(90deg);*/
+            /*transform:rotate(45deg);
+            background-color: red;
+            border-radius: 20px;
+            transform:scale(2);
+            transform:rotate(360deg);
+            transform:translate(200px,200px);*/
+            background-color: red;
+            transform: translate(200px,200px) scale(1.5) rotate(360deg) skew(45deg,60deg);
+
+        }
+    </style>
+</head>
+<body>
+    <section>
+       <div>
+       </div>
+    </section>
+</body>
+</html>

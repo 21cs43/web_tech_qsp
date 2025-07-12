@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(48, 21, 21);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#parent{
+    height: 580px;
+    width: 680px;
+    background: #00ff6a;
+    background: radial-gradient(circle, rgba(rgb(222, 202, 202), 255, 106, 1) 100%, rgba(240, 233, 233, 1) 0%);
+    display: flex;
+    position: absolute;
+}
+#burger{
+    position: absolute;
+    top: 180px;
+    left: 150px;
+}
+#juice{
+    position: absolute;
+    top: 20px;
+    right: 35px;
+}
+#fries{
+    position: absolute;
+    left: 0px;
+    top: 140px;
+}
+#circle{
+    background-color: red;
+    width: 180px;
+    height: 180px;
+    z-index: 1;
+    border-radius: 50%;
+    position: absolute;
+    left: 15px;
+    bottom: 5px;
+}
+#circle1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 3px solid;
+    border-color: white;
+    border-style:dashed;
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    margin: 1px;
+    left: 28px;
+    bottom: 18px;
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+#circle1 p:nth-child(1)::before{
+    content: "$";   
+}
+#circle1 p:nth-child(1){
+    font-size: 3rem;
+
+}
+
+#circle1 p:nth-child(2){
+    letter-spacing: 7px;
+    font-variant: small-caps;
+}
+
+    </style>
+</head>
+<body>
+    <section>
+<div id="parent">
+            <div>
+                <img id="juice" src="C:\Users\SHRIRAM U\Downloads\Telegram Desktop\cooldrink.png" alt="juice">
+            </div>
+            <div>
+                <img id="fries" src="C:\Users\SHRIRAM U\Downloads\Telegram Desktop\fries-removebg-preview.png" alt="fries">
+            </div>
+            <div> 
+                <img id="burger" src="C:\Users\SHRIRAM U\Downloads\Telegram Desktop\burger.png" alt="burger">
+            </div>
+            <div id="circle">
+            
+            </div>
+            <div id="circle1">
+                <div>
+                    <p id="price">5.49</p>
+                    <p id="only">ONLY</p>
+                </div>
+            
+            </div>
+        </div>
+    <section>
+</body>
+</html>

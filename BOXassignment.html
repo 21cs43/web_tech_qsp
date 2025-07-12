@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model </title>
+    <style>
+        div:hover{
+            background-color: azure;
+        }
+
+        .two{
+            height:200px;
+            width:260px;
+            border-style:dashed;
+            margin: 40px;
+            box-sizing: border-box;
+            background-color: burlywood;
+        }
+
+        .three{
+        height:140px;
+        width:200px;
+        border-style: solid;
+        margin: 25px;
+        background-color: antiquewhite;
+
+    }
+    .four{
+        height:100px;
+        width:150px;
+        border-style: dashed;
+        margin: 20px;
+        background-color: rgb(129, 199, 129);
+
+    }
+    .five{
+        height:50px;
+        width:100px;
+        border-style: solid;
+        margin: 25px;
+        background-color: rgb(122, 176, 209);
+    }
+
+    </style>
+</head>
+<body>
+    
+        <div class="two">
+            <div class="three">
+                <div class="four">
+                    <div class="five"></div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

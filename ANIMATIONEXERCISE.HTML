@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+
+            
+        }
+        section{
+
+            height: 500px;
+            width: 500px; 
+            border: 2px solid brown;
+            
+            
+        }
+        div{
+            height: 80px;
+            width: 80px;
+            border: 2px red solid;
+            animation-name: ani;
+            animation-delay: 2s;
+            animation-duration: 10s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction:normal;
+            
+        }
+        @keyframes ani {
+           0%{
+            background-color: black;
+            transform: translate(0px,0px);
+           }
+           25%{
+            background-color: red;
+            transform: translate(400px,0px);
+           }
+           50%{
+            background-color: blue;
+            transform: translate(400px,400px);
+           }
+           75%{
+            background-color: brown;
+            transform: translate(0px,400px);
+           }
+           100%{
+            background-color: chocolate;
+            transform: translate(0px,0px);
+           }
+       
+
+           
+            }
+            
+        
+        
+
+    </style>
+</head>
+<body>
+    <section>
+    <div></div>
+    </section>
+</body>
+</html>

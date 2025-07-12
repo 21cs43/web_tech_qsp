@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        P::first-line{
+            color: blue;
+        }
+        P::first-letter{
+            background-color: greenyellow;
+        }
+        p::before{
+            content: "ratchagar";
+        }
+        P::after{
+            content: "ganesn";
+        }
+        div::selection{
+            background-color: black;
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo earum voluptatibus excepturi sapiente quos eveniet voluptatum tenetur maiores? Provident vero cupiditate nulla harum natus repellendus architecto tempora eius molestias dolorem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam temporibus, quo consequuntur nesciunt cupiditate, provident distinctio excepturi fugit dolorem quidem, ea quae. Commodi dolorem sit libero ducimus labore! Atque, earum.</p>
+    </div>
+</body>
+
+</html>
